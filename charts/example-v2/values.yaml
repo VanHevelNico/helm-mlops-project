@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: stable
+  repository: ghcr.io/ouassimboutalliss/facialreconstruction_homeproject
+  tag: v2
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -64,9 +64,3 @@ resources: {}
 nodeSelector: {}
 
 tolerations: []
-
-<<<<<<< HEAD:charts/example/values.yaml
-affinity: {}
-=======
-affinity: {}
->>>>>>> parent of b9173b9 (saddlkasjd):charts/example-v2/values.yaml
