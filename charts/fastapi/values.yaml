@@ -10,7 +10,7 @@ image:
   pullPolicy: Always
 
 imagePullSecrets: 
-  - name: github-ouassim-project
+  name: github-ouassim-project
 nameOverride: ""
 fullnameOverride: ""
 
