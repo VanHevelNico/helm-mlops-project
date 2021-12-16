@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/ouassimboutalliss/facialreconstruction_homeproject
-  tag: v2
+  repository: nginx
+  tag: stable
   pullPolicy: Always
 
 imagePullSecrets: []
@@ -40,5 +40,4 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
-nodeSelector: 
-  kubernetes.io/hostname: van-hevel-nico
+nodeSelector: {}
